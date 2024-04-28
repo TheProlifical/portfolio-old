@@ -6,7 +6,14 @@ $(document).ready(function() {
 });
 
 
-  
+$(document).ready(function() {
+    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+        $('body').html('<div style="text-align: center; margin-top: 20vh;">' +
+                       '<h1>Your device isn\'t compatible with this site yet.</h1>' +
+                       '</div>');
+    }
+});
 
 $(document).ready(function() {
     $(".click").animate({
