@@ -2,7 +2,7 @@ h1 {
     position: absolute;
     font-size: 60px;
     left: 50%;
-    top: 20%;
+    top: 16%;
     transform: translateX(-50%);
 }
 
