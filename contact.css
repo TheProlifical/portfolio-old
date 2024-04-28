@@ -16,7 +16,7 @@ h1 {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 50px;
+    bottom: 42.5px;
     text-align: center;
     background-color: rgba(57, 95, 221, 0.214);
     align-items: center;
