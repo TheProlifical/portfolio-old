@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    background-image: url(./background.jpg);
+    background-color: rgb(24, 24, 24);
+    height: 95vh;
+    backdrop-filter: blur(6.28318px); 
+    overflow: hidden;
+    background-repeat: no-repeat;
+    transition: background-size .1s ease-out; /* Smooth transition for 2 seconds */
+    text-shadow: 10px 10px 15px black;
+}
+
+
+.navbar {
+    background-color: rgba(18, 51, 121, 0.201);
+    backdrop-filter: blur(2px);
+    text-decoration: none;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 80px black;
+    position: relative;
+    top: -100px;
+
+    margin: 1rem;
+}
+
+.bold {
+    justify-content: initial!important;
+    padding-left: 3.5rem;
+}
+
+.navbar li {
+    list-style-type: none;
+    display: inline;
+    padding: .60rem;
+    transition: all .15s ease-in-out;
+
+    width: -webkit-fill-available;
+}
+
+.navbar ul {
+    margin: 0;
+    padding-right: 3.5rem;
+    display: flex;
+    letter-spacing: 1px;
+    justify-content: right;
+    
+}
+.bold {
+    font-weight: 580;
+    letter-spacing: 2.75px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+ul li:hover {
+    transform: scale(1.25);
+}
+

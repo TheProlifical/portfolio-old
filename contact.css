@@ -1,0 +1,47 @@
+h1 {
+    position: absolute;
+    font-size: 60px;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+}
+
+.iskomainflexboxkarunga {
+    display: flex;
+    backdrop-filter: blur(16px);
+    border-radius: .4rem;
+    justify-content: space-evenly;
+    width: 75%;
+    height: 320px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 55px;
+    text-align: center;
+    background-color: rgba(57, 95, 221, 0.214);
+    align-items: center;
+
+}
+
+.iskomainflexboxkarunga .ironmanwaliplate img {
+    border-radius: .4rem ;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: -4px;
+}
+
+.ironmanwaliplate {
+    transition: all 80ms ease-in-out;
+}
+
+.ironmanwaliplate:hover {   
+    transform: scale(1.314519);
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
