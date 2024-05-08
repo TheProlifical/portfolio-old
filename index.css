@@ -1,65 +1,82 @@
-
-
 .title {
-    font-size: 80px;
-    text-align: center;
-    letter-spacing: 24px;
-    width: 100vw;
-    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.549);
+	font-size: 80px;
+	text-align: center;
+	letter-spacing: 24px;
+	width: 100vw;
+	text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.549);
 }
 
 .whoami:hover {
-    transform: scale(1.16803);
+	transform: scale(1.16803);
 }
 
 .content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .whoami {
-    text-align: center;
-    margin-top: -48px;
-    transition: transform .2s ease-in-out;
+	text-align: center;
+	margin-top: -48px;
+	transition: transform .2s ease-in-out;
 }
 
 .click {
-    background-color: rgba(163, 207, 255, 0.19);
-    width: 160px;
-    height: 40px;
-    border-radius: 2px;
-    border: 1px solid rgba(255, 255, 255, 0.23);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: absolute;
-    bottom: -80px;
-    transition: all .161803s ease-in-out;
+	background-color: rgba(163, 207, 255, 0.19);
+	width: 160px;
+	height: 40px;
+	border-radius: 2px;
+	border: 1px solid rgba(255, 255, 255, 0.23);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: absolute;
+	bottom: -80px;
+	transition: all .161803s ease-in-out;
 }
 
 
-.click:hover{
-    transform: scale(1.2);
-    background-color: rgba(135, 214, 251, 0.39);
-    border: 1px solid rgba(255, 255, 255, 0.43);
+.click:hover {
+	transform: scale(1.2);
+	background-color: rgba(135, 214, 251, 0.39);
+	border: 1px solid rgba(255, 255, 255, 0.43);
 
 
 }
 
 .click a {
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 
 .outerclick {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 p {
-    margin-top: 40px;
+	margin-top: 40px;
+}
+
+.scale svg {
+	width: 44px;
+	fill: rgba(255, 255, 255, 0.705);
+}
+
+.scale {
+	background-color: rgba(14, 56, 112, 0.418);
+	display: flex;
+	width: 65px;
+	height: 65px;
+	transform: scale(0.65);
+	justify-content: center;
+	align-items: center;
+	border-radius: 11px;
+	position: absolute;
+	left: 24.4%;
+	bottom: 10%;
 }

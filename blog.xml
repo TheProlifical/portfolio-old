@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blog>
+    <post>
+        <title>Hello everyone!</title>
+        <description>This is the first post on my site. Thanks for reading it! Also, if you need to contact me about anything, please feel free to do so. Thats it for now! </description>
+        
+        <description>This was written on : 08/05/2024</description>
+    </post>
+    <!-- Add more posts as needed -->
+</blog>

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+.description {
+	display: none;
+}
+
+.post {
+	width: 90%;
+	background-color: rgba(21, 89, 167, 0.432);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 20px;
+	margin: 18px;
+	border: 4px solid rgba(72, 72, 247, 0.377);
+	border-radius: 11px;
+	height: auto;
+	transition: all .25s cubic-bezier(0, -0.96, 0.17, 1.06);
+
+}
+
+#blog-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+	font-family: 'Sora';
+}
+
+h2 {
+	margin: 0;
+	transition: all .25s cubic-bezier(0, -0.96, 0.17, 1.06);
+
+}
+
+h2:hover {
+	transform: scale(1.2);
+	color: whitesmoke;
+}
+
+p {
+	transition: all .25s cubic-bezier(0, -0.96, 0.17, 1.06);
+}
+
+p:hover {
+	transform: scale(1.02);
+	color: whitesmoke;
+}
+
+
+button {
+	border: 0px solid transparent;
+	background-color: rgb(5, 88, 197);
+	color: white;
+	font-family: 'Sora';
+	padding: 8px;
+	border-radius: 4px;
+	transition: all .25s cubic-bezier(0, -0.96, 0.17, 1.06);
+
+}
+
+button:hover {
+	transform: scale(1.2);
+	background-color: rgb(28, 102, 199);
+
+}

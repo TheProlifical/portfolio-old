@@ -1,48 +1,54 @@
 h1 {
-    position: absolute;
-    left: 25%;
-    font-size: 60px; 
-    width: 100%;
-    top: 14.31415916803%;
+	position: absolute;
+	left: 50%;
+	font-size: 60px;
+	width: max-content;
+	top: 14.31415916803%;
+	transform: translateX(-50%);
 }
+
 .tabla {
-    background-color: rgba(57, 95, 221, 0.214);
-    backdrop-filter: blur(16px);
-    width: 90%;
-    height: 375px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: -1;
-    bottom: -800px;
-    border-radius: .4rem;
+	background-color: rgba(57, 95, 221, 0.214);
+	backdrop-filter: blur(16px);
+	width: 90%;
+	height: 375px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: -1;
+	bottom: -800px;
+	border-radius: .4rem;
 }
 
 .tabla ul {
-    background-color: rgba(96, 197, 241, 0.047);
-    text-align: center;
-    padding: 14px;
-    border-radius: .4rem;
-    margin: 0;
-    height: 280px;
-    width: 320px;
-    backdrop-filter: blur(8px);
+	background-color: rgba(96, 197, 241, 0.047);
+	text-align: center;
+	padding: 14px;
+	border-radius: .4rem;
+	margin: 0;
+	height: 280px;
+	width: 320px;
+	backdrop-filter: blur(8px);
 }
 
 .tabla ul li {
-    text-decoration: none;
-    list-style: none;
-    letter-spacing: 3px;
+	text-decoration: none;
+	list-style: none;
+	letter-spacing: 3px;
 }
 
 .tabla * {
-    transition: all 40ms ease-in-out;
-    text-align: center;
+	transition: all .25s cubic-bezier(0, -0.96, 0.17, 1.06);
+	text-align: center;
 }
 
 h2 {
-    text-align: center;
+	text-align: center;
+}
+
+ul li:hover{
+    transform: scale(1.5);
 }

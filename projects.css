@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+.cards {
+	width: 400px;
+	background-color: rgba(0, 89, 206, 0.589);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	border-radius: 12px;
+	transform: scale(.8);
+	transition: all .15s cubic-bezier(0, -0.96, 0.17, 1.06);
+	font-family: 'Sora';
+	padding: 10px;
+	filter: blur(.3px);
+	border: 3px solid rgba(255, 0, 0, 0.216)
+}
+
+.cards:hover {
+	transform: scale(1);
+	background-color: rgba(60, 133, 229, 0.589);
+	border: 4px solid rgba(103, 192, 247, 0.476);
+	filter: blur(0px);
+
+
+}
+
+p {
+	margin: 0;
+	padding-bottom: 25px;
+}
+
+.cards img {
+	margin-top: 20px;
+	filter: blur(.3px);
+	border-radius: 12px;
+	transition: all .25s cubic-bezier(0, -0.96, 0.17, 1.06);
+}
+
+.cards img:hover {
+	transform: scale(1.15);
+	filter: blur(0px);
+}
+
+.cards h1 {
+	transition: all .25s cubic-bezier(0, -0.96, 0.17, 1.06);
+}
+
+.cards h1:hover {
+	transform: scale(1.05);
+}
+
+.cards p {
+	transition: all .25s cubic-bezier(0, -0.96, 0.17, 1.06);
+}
+
+.cards p:hover {
+	transform: scale(1.05);
+}
+
+.cardgroup {
+	display: flex;
+	width: 100vw;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.cards a {
+	color: rgb(131, 216, 255);
+}
