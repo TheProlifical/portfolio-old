@@ -4,6 +4,14 @@
 	letter-spacing: 24px;
 	width: 100vw;
 	text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.549);
+	transition: color 2.25s cubic-bezier(0, -0.96, 0.17, 1.06);
+	transition: transform .25s cubic-bezier(0, -0.96, 0.17, 1.06);
+
+}
+
+.title:hover {
+	color: rgb(253, 243, 223);
+	transform: scale(1.15);
 }
 
 .whoami:hover {
