@@ -43,7 +43,9 @@ body {
 	display: inline;
 	transition: all .15s ease-in-out;
 }
-
+.nav-content ul li a {
+	transition: all .25s cubic-bezier(0, -0.96, 0.17, 1.06);
+}
 .nav-content ul li a:hover:not(#rssFeedContainer) {
 	color: rgb(96, 189, 255);
 	transform: scale(1.2);
